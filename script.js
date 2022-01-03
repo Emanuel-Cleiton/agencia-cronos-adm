@@ -91,11 +91,22 @@ function insereAntigos() {
 insereAntigos()
 
 function cadastrarServiço(){
+    // puxa informações do input
 
-    let inputServiço = document.querySelector('#nomeServico').value;
+    let inputServico = document.querySelector('#nomeServico').value;
     let inputDescrição = document.querySelector('#descricaoServico').value;
     let inputUrlImagem = document.querySelector('#imagemServico').value;
     let inputIdServico = document.querySelector('#idServico').value;
+    
+    modalFundo.classList.remove('modalFront');
+    if (inputServico.length<1){
+        alert('Digite um Serviço!')
+        return false;
+    }
+    if (inputIdServico.length ==''){
+        alert('Digite um ID!')
+        return false;
+    }
     
 }
 
