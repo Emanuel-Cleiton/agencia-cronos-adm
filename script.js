@@ -67,7 +67,7 @@ let arrayServicos = [
 
 // puxa informações ja postas da array pro html
 
-function cadastraAntigos() {
+function insereAntigos() {
 
     for (let conta = 0; conta < arrayServicos.length; conta++) {
         let Item = document.createElement('tr')
@@ -77,8 +77,8 @@ function cadastraAntigos() {
     <td>${arrayServicos[conta].descricao}</td>
     <td>${arrayServicos[conta].id}</td>
     <td>
-    <button class="btn btn-secondary m-1" onclick="editSrvc(${arrayServicos[conta].id})">editar</button>
-    <button class="btn btn-danger m-1" onclick="dltSrvc(${arrayServicos[conta].id})">excluir</button>
+    <button class="btn btn-secondary m-1" onclick="editaServico(${arrayServicos[conta].id})">editar</button>
+    <button class="btn btn-danger m-1" onclick="deletaServico(${arrayServicos[conta].id})">excluir</button>
     </td>`;
 
     Item.setAttribute('id', `${[conta]}`)
@@ -87,7 +87,7 @@ function cadastraAntigos() {
     }
 }
 
-cadastraAntigos()
+insereAntigos()
 
 
 
