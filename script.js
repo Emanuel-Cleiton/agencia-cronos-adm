@@ -42,7 +42,7 @@ let arrayServicos = [
     // },
 
     {
-        'servico': 'Desenvolvimento Web	',
+        'servico': 'Desenvolvimento Web',
         'descricao': 'Consequatur debitis ipsa numquam illum placeat quod deleniti.',
         'img': '',
         'id': '0'
@@ -107,6 +107,18 @@ function cadastrarServiço(){
         alert('Digite um ID!')
         return false;
     }
+    for(let i = 0; i < arrayServicos.length; i++) {
+        if(arrayServicos[i]['servico'] === inputServico) {
+            return alert('Esse serviço ja está no sistema!')
+        }
+    }
+
+    for(let i = 0; i < arrayServicos.length; i++) {
+        if(arrayServicos[i]['id'] === inputIdServico) {
+            return alert('Esse ID ja está no sistema!')
+        }
+    }
+
     arrayServicos.push({
         // irserção de dados na array
         'servico':inputServico,
@@ -127,21 +139,48 @@ function cadastrarServiço(){
     onclick="deletaServico(${inputIdServico})"> excluir </button></td>; 
     `
     novoServico.setAttribute('id', `${inputIdServico}`)
-    document.querySelector('my-5').appendChild(novoServico);
+    document.querySelector('.my-5').appendChild(novoServico);
     document.querySelector('.modal-form').reset();  
   
 }
  salvaServico.addEventListener('click',cadastrarServiço);
 
+ salvaEditar.addEventListener('click', SalvaEdicaoServico);
+   
 
 
 
+function editaServico(id) {
+    modalFundo.classList.add('modalFront');
+    salvaEditar.style.display = 'initial';
+    salvaServico.style.display = 'none';
 
-function editaServico() {
+    for(let i = 0; i < arrayServicos.length; i++) {
+        if(arrayServicos[i]['id'] == id) {
+           document.querySelector('#nomeServico').value = arrayServicos[i]['servico'];
+           document.querySelector('#descricaoServico').value = arrayServicos[i]['descricao'];
+           document.querySelector('#imagemServico').value = arrayServicos[i]['img'];
+           document.querySelector('#idServico').value = arrayServicos[i]['id'];
+        }
+    }
+}
+
+function SalvaEdicaoServico() {
+    let editaId = document.querySelector('#idServico').value
+    editaServico();
+    deletaServico(editaId);
+    cadastrarServiço();
 
 }
 
-function deletaServico() {
+function deletaServico(id) {
+    document.getElementById(id).remove();
+
+        for(let i = 0; i < arrayServicos.length; i++) {
+            if (arrayServicos[i]['id'] == id) {
+                arrayServicos.splice(i, 1)
+            }
+        }
 
 }
 
