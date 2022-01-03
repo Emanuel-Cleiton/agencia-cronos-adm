@@ -94,7 +94,7 @@ function cadastrarServiço(){
     // puxa informações do input
 
     let inputServico = document.querySelector('#nomeServico').value;
-    let inputDescrição = document.querySelector('#descricaoServico').value;
+    let inputDescricao = document.querySelector('#descricaoServico').value;
     let inputUrlImagem = document.querySelector('#imagemServico').value;
     let inputIdServico = document.querySelector('#idServico').value;
     
@@ -107,8 +107,32 @@ function cadastrarServiço(){
         alert('Digite um ID!')
         return false;
     }
-    
+    arrayServicos.push({
+        // irserção de dados na array
+        'servico':inputServico,
+        'descricao':inputDescricao,
+        'img':inputUrlImagem,
+        'id': inputIdServico,
+    });
+    let novoServico= document.createElement('tr')
+    novoServico.innerHTML=`
+    <td>${inputServico}</td>
+    <td><img src=${inputUrlImagem}/></td>
+    <td>${inputDescricao}</td>
+    <td>${inputIdServico}</td>
+    <td> <button class="btn btn-secondary m-1"
+    onclick="editaServico(${inputIdServico})">
+    editar</button>
+    <button class="btn btn-danger m-1"
+    onclick="deletaServico(${inputIdServico})"> excluir </button></td>; 
+    `
+    novoServico.setAttribute('id', `${inputIdServico}`)
+    document.querySelector('my-5').appendChild(novoServico);
+    document.querySelector('.modal-form').reset();  
+  
 }
+ salvaServico.addEventListener('click',cadastrarServiço);
+
 
 
 
