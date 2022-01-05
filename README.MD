@@ -4,8 +4,8 @@
 
 ## Sobre o projeto:
 Foi nos dada a tarefa de dar continuidade no desenvolvimento do site institucional da Agência Cronos, no qual era necessario o desenvolvimento das funcionalidades criar, visualizar, editar e deletar serviços da lista (o famoso CRUD).
+![Imagem geral do site](/imagens/teladosite.png "Imagem geral")
 
-(img)
 
 ## Linguagens utilizadas:
 - Javascript
@@ -21,14 +21,19 @@ Foi nos dada a tarefa de dar continuidade no desenvolvimento do site institucion
  - Celular (375px).
 
 ## Funcionalidades: 
-- Criação de novos serviços na plataforma
-(img)
-- Visualização de serviços inseridos na plataforma
-(img)
-- Atualização de serviços da plataforma
-(img)
-- Exclusão de serviços da plataforma
-(img)
+### - Criação de novos serviços na plataforma
+![Funcao criar](/imagens/funcaoinserirp1.png "Funcao criar")
+![Funcao criar1](/imagens/funcaoinserir2.png "Funcao criar")
+### - Visualização de serviços inseridos na plataforma
+![Funcao visualizadora](/imagens/teladosite.png "Funcao visualizadora")
+### - Atualização de serviços da plataforma
+![Funcao Edit1](/imagens/funcaoeditar.png "Funcao Edit")
+![Funcao Edit1](/imagens/funcaoeditar2.png "Funcao Edit")
+    - Função de amostragem de imagem
+    ![Funcao am](/imagens/amostradeimg.png "Funcao am")
+### - Exclusão de serviços da plataforma
+![Funcao exclui](/imagens/funcaoexcluir.png "Funcao exclui")
+![Funcao exclui1](/imagens/funcaoexcluir2.png "Funcao exclui1")
 
 ## Desenvolvido por:
 - Rhuan Martins Teixeira

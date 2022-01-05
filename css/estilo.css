@@ -83,13 +83,13 @@ table img {
 .modal {
     background-color: white;
     width: 20%;
-    height: 61.5%;
+    height: 58.5%;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-left: 39.2%;
     margin-top: 7%;
-
+    border-radius: 2%;
 
 }
 #imgTemporaria{
@@ -98,10 +98,7 @@ table img {
     max-height: 160px;
 
 }
-.modal header {
-    width: 100%;
-    height: 6%;
-}
+
 
 .titulomodal {
     font-size: 200%;
@@ -182,7 +179,56 @@ table img {
 .modal {
     background-color: white;
     width: 40%;
-    height: 68%;
+    height: 61%;
+    margin-left: 29.2%;
+    margin-top: 16%;
 }
 
 }
+
+@media only screen and (max-width:1280px) {
+    .modal {
+        background-color: white;
+        width: 40%;
+        height: 62%;
+        margin-left: 29.2%;
+        margin-top: 16%;
+    }
+
+}
+
+
+
+@media only screen and (max-width:1080px) {
+    .modal {
+
+        height: 69.5%;
+        margin-left: 30.2%;
+        margin-top: 13%;
+    }
+
+    
+    .modal-form input {
+
+        width: 170%;
+
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .modal {
+
+        height: 50%;
+        width: 50%;
+        margin-left: 11.2%;
+        margin-top: 26%;
+    }
+
+    
+    .modal-form input {
+
+        width: 70%;
+
+    }
+}
+
