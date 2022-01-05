@@ -142,12 +142,24 @@ function cadastrarServiço(){
     document.querySelector('.my-5').appendChild(novoServico);
     document.querySelector('.modal-form').reset();  
   
+
+
 }
  salvaServico.addEventListener('click',cadastrarServiço);
 
  salvaEditar.addEventListener('click', SalvaEdicaoServico);
    
+let imgPreviaInput = document.querySelector('.imagemPrevia')
+let imgPrevia = document.querySelector('#imgMostrada')
+let imgTemp = document.querySelector('#imgTemporaria')
 
+imgPrevia.style.display = 'none';
+imgTemp.style.display = 'block';
+function mostraImg () {
+    imgPrevia.style.display = 'block';
+    imgPrevia.src = imagemServico.value
+    imgTemp.style.display = 'none';
+};
 
 
 function editaServico(id) {

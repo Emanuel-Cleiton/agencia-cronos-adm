@@ -50,18 +50,23 @@
   </section>
   <div class='modalBack'>
     <div class='modal'>
-      <h2>Adicione um novo serviço</h2>
+      <header>
+      <span class="titulomodal"></span>
       <h5></h5>
-
-      <form class='modal-form'>
+    </header>
+      <form class='modal-form' autocomplete="off" >
+        
         <label for='nomeServico'>Serviço: </label>
         <input type='text' name='nomeServico' id='nomeServico' placeholder="Exemplo de serviço">
+        <label for='idServico'>ID do serviço:</label>
+        <input type='number' name='idServico' id='idServico' placeholder="ID">  
         <label for='descricaoServico'>Descrição do serviço: </label>
         <input type='text' name='descricaoServico' id='descricaoServico' placeholder="Consequatur debitis ipsa numquam">
         <label for='imagemServico'>Url da imagem:</label>
-        <input type='text' name='imagemServico' id='imagemServico' placeholder="exemplodeURL.png">
-        <label for='idServico'>ID do serviço:</label>
-        <input type='number' name='idServico' id='idServico' placeholder="ID">  
+        <input type='text' name='imagemServico' id='imagemServico' class='imagemPrevia' onchange='mostraImg()' placeholder="exemplodeURL.png">
+        <img src='' id='imgMostrada'>
+        <img src='/segunda semana/agencia-cronos-adm/imagens/previa.png' id='imgTemporaria'>
+
       </form>
       
       <footer class="botoesModal">
