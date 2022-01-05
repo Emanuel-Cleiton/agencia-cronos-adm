@@ -4,7 +4,7 @@
 
 ## Sobre o projeto:
 Foi nos dada a tarefa de dar continuidade no desenvolvimento do site institucional da Agência Cronos, no qual era necessario o desenvolvimento das funcionalidades criar, visualizar, editar e deletar serviços da lista (o famoso CRUD).
-![Imagem geral do site](/imagens/teladosite.png "Imagem geral")
+
 
 
 ## Linguagens utilizadas:
@@ -29,7 +29,7 @@ Foi nos dada a tarefa de dar continuidade no desenvolvimento do site institucion
 ### - Atualização de serviços da plataforma
 ![Funcao Edit1](/imagens/funcaoeditar.png "Funcao Edit")
 ![Funcao Edit1](/imagens/funcaoeditar2.png "Funcao Edit")
-    - Função de amostragem de imagem
+    - Função de pré visualização de imagem
     ![Funcao am](/imagens/amostradeimg.png "Funcao am")
 ### - Exclusão de serviços da plataforma
 ![Funcao exclui](/imagens/funcaoexcluir.png "Funcao exclui")
@@ -45,3 +45,4 @@ Foi nos dada a tarefa de dar continuidade no desenvolvimento do site institucion
 2. execute o arquivo index.html em seu navegadorz'
 
 ## ou utilize esse link de acesso para teste do projeto utilizando o proprio site do github:
+https://knziee.github.io/agencia-cronos-adm/
