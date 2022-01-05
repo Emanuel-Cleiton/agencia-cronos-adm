@@ -29,8 +29,8 @@ Foi nos dada a tarefa de dar continuidade no desenvolvimento do site institucion
 ### - Atualização de serviços da plataforma
 ![Funcao Edit1](/imagens/funcaoeditar.png "Funcao Edit")
 ![Funcao Edit1](/imagens/funcaoeditar2.png "Funcao Edit")
-    - Função de pré visualização de imagem
-    ![Funcao am](/imagens/amostradeimg.png "Funcao am")
+### - Função de pré visualização de imagem
+![Funcao am](/imagens/amostradeimg.png "Funcao am")
 ### - Exclusão de serviços da plataforma
 ![Funcao exclui](/imagens/funcaoexcluir.png "Funcao exclui")
 ![Funcao exclui1](/imagens/funcaoexcluir2.png "Funcao exclui1")
@@ -42,7 +42,7 @@ Foi nos dada a tarefa de dar continuidade no desenvolvimento do site institucion
 
 ## Como executar o projeto:
 1. Faça download do projeto
-2. execute o arquivo index.html em seu navegadorz'
+2. execute o arquivo index.html em seu navegador
 
 ## ou utilize esse link de acesso para teste do projeto utilizando o proprio site do github:
 https://knziee.github.io/agencia-cronos-adm/
