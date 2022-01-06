@@ -13,7 +13,7 @@ Foi nos dada a tarefa de dar continuidade no desenvolvimento do site institucion
 - CSS
 
 ## Resposividade:
- O site funciona para as seguintes resoluções de tela:
+ Supostamente otimizado para as resoluções de tela:
  - Desktop (2560x1080px);
  - Desktop (1366x768px);
  - Desktop (1280x720px);
