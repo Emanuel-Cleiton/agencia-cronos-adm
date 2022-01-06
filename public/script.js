@@ -129,7 +129,7 @@ function cadastrarServiço(){
     let novoServico= document.createElement('tr')
     novoServico.innerHTML=`
     <td>${inputServico}</td>
-    <td><img src=${inputUrlImagem}/></td>
+    <td><img src='${inputUrlImagem}'/></td>
     <td>${inputDescricao}</td>
     <td>${inputIdServico}</td>
     <td> <button class="btn btn-secondary m-1"
@@ -157,7 +157,7 @@ imgPrevia.style.display = 'none';
 imgTemp.style.display = 'block';
 function mostraImg () {
     imgPrevia.style.display = 'block';
-    imgPrevia.src = 4545
+    imgPrevia.src = imgPreviaInput.value
     imgTemp.style.display = 'none';
 };
 
