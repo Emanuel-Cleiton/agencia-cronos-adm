@@ -136,7 +136,7 @@ function cadastrarServiço(){
     onclick="editaServico(${inputIdServico})">
     editar</button>
     <button class="btn btn-danger m-1"
-    onclick="deletaServico(${inputIdServico})"> excluir </button></td>; 
+    onclick="deletaServico(${inputIdServico})"> excluir </button></td> 
     `
     novoServico.setAttribute('id', `${inputIdServico}`)
     document.querySelector('.my-5').appendChild(novoServico);
@@ -157,7 +157,7 @@ imgPrevia.style.display = 'none';
 imgTemp.style.display = 'block';
 function mostraImg () {
     imgPrevia.style.display = 'block';
-    imgPrevia.src = imagemServico.value
+    imgPrevia.src = 4545
     imgTemp.style.display = 'none';
 };
 
