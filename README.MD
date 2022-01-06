@@ -14,11 +14,11 @@ Foi nos dada a tarefa de dar continuidade no desenvolvimento do site institucion
 
 ## Resposividade:
  O site funciona para as seguintes resoluções de tela:
- - Desktop (2560px);
- - Desktop (1366px);
- - Desktop (1280px);
- - Tablet (1024px);
- - Celular (375px).
+ - Desktop (2560x1080px);
+ - Desktop (1366x768px);
+ - Desktop (1280x720px);
+ - Tablet (1024x768px);
+ - Celular (375x812px).
 
 ## Funcionalidades: 
 ### - Criação de novos serviços na plataforma
@@ -40,9 +40,3 @@ Foi nos dada a tarefa de dar continuidade no desenvolvimento do site institucion
 - Emanuel Cleiton da Penha
 - Hendy (HTML e CSS inicial do site)
 
-## Como executar o projeto:
-1. Faça download do projeto
-2. execute o arquivo index.html em seu navegador
-
-## ou utilize esse link de acesso para teste do projeto utilizando o proprio site do github:
-https://knziee.github.io/agencia-cronos-adm/
