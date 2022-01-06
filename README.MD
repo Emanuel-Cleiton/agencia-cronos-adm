@@ -22,18 +22,18 @@ Foi nos dada a tarefa de dar continuidade no desenvolvimento do site institucion
 
 ## Funcionalidades: 
 ### - Criação de novos serviços na plataforma
-![Funcao criar](/imagens/funcaoinserirp1.png "Funcao criar")
-![Funcao criar1](/imagens/funcaoinserir2.png "Funcao criar")
+![Funcao criar](/public/imagens/funcaoinserirp1.png "Funcao criar")
+![Funcao criar1](/public/imagens/funcaoinserir2.png "Funcao criar")
 ### - Visualização de serviços inseridos na plataforma
-![Funcao visualizadora](/imagens/teladosite.png "Funcao visualizadora")
+![Funcao visualizadora](/public/imagens/teladosite.png "Funcao visualizadora")
 ### - Atualização de serviços da plataforma
-![Funcao Edit1](/imagens/funcaoeditar.png "Funcao Edit")
-![Funcao Edit1](/imagens/funcaoeditar2.png "Funcao Edit")
+![Funcao Edit1](/public/imagens/funcaoeditar.png "Funcao Edit")
+![Funcao Edit1](/public/imagens/funcaoeditar2.png "Funcao Edit")
 ### - Função de pré visualização de imagem
-![Funcao am](/imagens/amostradeimg.png "Funcao am")
+![Funcao am](/public/imagens/amostradeimg.png "Funcao am")
 ### - Exclusão de serviços da plataforma
-![Funcao exclui](/imagens/funcaoexcluir.png "Funcao exclui")
-![Funcao exclui1](/imagens/funcaoexcluir2.png "Funcao exclui1")
+![Funcao exclui](/public/imagens/funcaoexcluir.png "Funcao exclui")
+![Funcao exclui1](/public/imagens/funcaoexcluir2.png "Funcao exclui1")
 
 ## Desenvolvido por:
 - Rhuan Martins Teixeira
